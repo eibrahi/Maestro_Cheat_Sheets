@@ -17,3 +17,19 @@
 - ⚖️ **Abgrenzung**:
   - **RAG > Fine-Tuning** bei großen Dokus, privaten Daten, häufigen Änderungen.
   - **RAG > langes Kontext-Fenster / Prompt Stuffing**, weil es **selektiv** arbeitet.
+
+# 🏗️ RAG Architecture
+
+### 🔄 RAG-Loop
+
+**Query** → **Embed** → **Search** → **Retrieve** → **Prompt augmentieren** → **LLM-Antwort**
+
+### ⚙️ Rollen
+
+- 🧠 **Embedding-Modell** (Query vorbereiten)
+- 🗄️ **Vektor-Store** (relevante Dokus finden)
+- 🤖 **LLM** (Antwort formulieren)
+
+### ⚠️ Problemfall
+
+**Schlechtes Retrieval ⇒ schlechte/irrelevante Antwort**, egal wie stark das LLM ist.
