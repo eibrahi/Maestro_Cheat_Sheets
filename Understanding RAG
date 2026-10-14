@@ -1,9 +1,9 @@
-The Knowladge Cuttoff Problem
+# 🧠 The Knowladge Cuttoff Problem
 
-- Ein LLM kennt nur Muster aus seinem Trainingsdatensatz.
-- Ab dem Knowledge Cutoff ist alles Neue draußen.
-- Typisch fehlen:
-  - Private Daten (interne Systeme, Wikis, Runbooks, Schemas …)
-  - Events nach dem Cutoff (News, Incidents, neue Features …)
-  - Spezielle Domain-Dokumente, die nie im Training waren
-- Ein noch so guter Prompt kann fehlende Informationen nicht ersetzen – das muss über die System-/Architektur gelöst werden, nicht über „Prompt-Magie“.
+- Ein **LLM** kennt nur Muster aus seinem **Trainingsdatensatz**.
+- Ab dem **Knowledge Cutoff** ist alles Neue draußen.
+- **Typisch fehlen:**
+  - 🔒 **Private Daten** (interne Systeme, Wikis, Runbooks, Schemas …)
+  - 📰 **Events nach dem Cutoff** (News, Incidents, neue Features …)
+  - 📚 **Spezielle Domain-Dokumente**, die nie im Training waren
+- Ein noch so guter **Prompt** kann fehlende Informationen nicht ersetzen – das muss über die **System-/Architektur** gelöst werden, nicht über **„Prompt-Magie“**.
