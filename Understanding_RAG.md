@@ -41,3 +41,27 @@
 - 🔍 **Ähnliche Bedeutung** ⇒ **nahe Vektoren** → so funktioniert die Suche.
 
 - ⚙️ Diese **Retrieval-Embeddings** sind **nicht** die gleichen wie die kontextuellen **Token-Embeddings im LLM**, die nur für die **Generierung** da sind.
+
+# 🧠 Choosing an Embedding Model
+
+### ⚙️ Kernkriterien für Embedding-Modelle
+
+Die **4 wichtigsten Kriterien** bei der Auswahl eines Embedding-Modells:
+
+- 📐 **Vektor-Dimensionen**
+- 📏 **Kontextlänge**
+- 🌍 **Multilingualität**
+- ⚡ **Speed vs. Accuracy**
+
+### 🎯 Domain Fit
+
+- Der **Domain Fit** (z. B. Tech, Medizin, HR) beeinflusst die **Retrieval-Qualität** maßgeblich.
+
+### 🔍 Auswahl des passenden Embedding-Modells
+
+- Für unterschiedliche **RAG-Use-Cases** sollte ein **passendes Embedding-Profil** ausgewählt und die Entscheidung begründet werden.
+
+### ⚠️ Modellwechsel
+
+- Ein späterer **Wechsel des Embedding-Modells** erfordert ein **vollständiges Re-Embedding** aller Daten.
+- Dies verursacht zusätzlichen **Zeit- und Kostenaufwand**.
