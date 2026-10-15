@@ -33,3 +33,11 @@
 ### ⚠️ Problemfall
 
 **Schlechtes Retrieval ⇒ schlechte/irrelevante Antwort**, egal wie stark das LLM ist.
+
+# 🧠 Embedding Models for Retrieval
+
+- 📝 **Text (Query oder Chunk)** → **Retrieval-Embedding-Vektor**
+
+- 🔍 **Ähnliche Bedeutung** ⇒ **nahe Vektoren** → so funktioniert die Suche.
+
+- ⚙️ Diese **Retrieval-Embeddings** sind **nicht** die gleichen wie die kontextuellen **Token-Embeddings im LLM**, die nur für die **Generierung** da sind.
