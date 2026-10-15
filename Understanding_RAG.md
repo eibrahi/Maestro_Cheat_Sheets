@@ -65,3 +65,20 @@ Die **4 wichtigsten Kriterien** bei der Auswahl eines Embedding-Modells:
 
 - Ein späterer **Wechsel des Embedding-Modells** erfordert ein **vollständiges Re-Embedding** aller Daten.
 - Dies verursacht zusätzlichen **Zeit- und Kostenaufwand**.
+
+# 🗄️ Vector Databases
+
+### 📌 Definition einer Vektordatenbank
+
+- Eine **Vektordatenbank** dient der Speicherung und **Similarity Search** (Ähnlichkeitssuche) von **Embeddings**.
+
+### 🔍 Unterschied zwischen klassischen Datenbanken und Vektordatenbanken
+
+- 🗃️ **Klassische Datenbank** → Suche nach **exakten Werten**
+- 🧠 **Vektordatenbank** → Suche anhand **semantischer Ähnlichkeit**
+
+### ⚙️ Rolle im RAG-Flow
+
+- 🧠 **Embedding-Modell** → Erstellt die **Vektoren (Embeddings)**.
+- 🗄️ **Vektordatenbank** → **Indexiert** die Vektoren und ruft **relevante Chunks** ab.
+- 🤖 **LLM** → Generiert auf Basis der abgerufenen Informationen die **Antwort**.
