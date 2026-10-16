@@ -82,3 +82,27 @@ Die **4 wichtigsten Kriterien** bei der Auswahl eines Embedding-Modells:
 - 🧠 **Embedding-Modell** → Erstellt die **Vektoren (Embeddings)**.
 - 🗄️ **Vektordatenbank** → **Indexiert** die Vektoren und ruft **relevante Chunks** ab.
 - 🤖 **LLM** → Generiert auf Basis der abgerufenen Informationen die **Antwort**.
+
+# 🗄️ Choosing a Vector Database
+
+### ⚙️ Kriterien zur Auswahl einer Vektordatenbank
+
+Die wichtigsten Kriterien bei der Wahl einer **Vektordatenbank**:
+
+- ☁️ **Hosting** → Hosted vs. Self-Hosted
+- 📈 **Skalierung** → Skalierbarkeit der Datenbank
+- ⚡ **Query-Speed** → Geschwindigkeit der Suchanfragen
+- 🔍 **Metadaten-Filter** → Filterung anhand von Metadaten
+- 💰 **Kosten** → Betriebskosten und Ressourcenbedarf
+- 👥 **Team-Fit** → Passung zu vorhandenen Kompetenzen und Technologien
+
+### ⚖️ Vergleich der Datenbanktypen
+
+- 🐘 **PostgreSQL + Vektor-Extension** → Relationale Datenbank mit erweiterten Vektorsuchfunktionen
+- 🧠 **Purpose-built Vektordatenbank** → Speziell für die Speicherung, Indexierung und Suche von Vektoren entwickelte Datenbank
+- 🔄 **Trade-offs** → Unterschiede hinsichtlich Performance, Skalierbarkeit, Flexibilität und Betriebsaufwand
+
+### 🎯 Auswahl für konkrete RAG-Projekte
+
+- Für den **Data-Engineering-Assistenten** sollte eine **passende Vektordatenbank** anhand der definierten Kriterien ausgewählt werden.
+- Die **Datenbankentscheidung** sollte technisch und wirtschaftlich begründet sein.
